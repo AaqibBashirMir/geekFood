@@ -1,0 +1,56 @@
+#getStarted{
+    border: none;
+    background-color: #1D4ED8;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 10px;
+    font-weight: bold;
+}
+#getStarted:hover{
+    background-color: darkblue;
+}
+#search-now{
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 180px;
+    background-color: #BE123C;
+    color: #FFF0CD;
+    border-radius: 10px;
+
+
+}
+#buttons{
+    display: flex;
+    gap: 30px;
+}
+#know-more{
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 180px;
+    background-color: #ffffff;
+    color: #E15A60;
+    border-radius: 10px;
+
+}
+#know-more:hover{
+    outline: auto;
+}
+#search-now:hover{
+    cursor: pointer;
+    outline:auto;
+}
+#get-in-touch{
+    border: none;
+    background-color: #1D4ED8;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 20px;
+    font-weight: bold;
+    width: 200px;
+
+}
+#get-in-touch:hover{
+    background-color: darkblue;
+}

@@ -1,0 +1,24 @@
+#Header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding:0 40px;
+    align-items: center;
+    background-color: white;
+
+}
+#Header>#list{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.inner-list:hover{
+    color:blue
+}
+
+#Header>#left-heading{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
