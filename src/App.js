@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/HeaderSection/Header';
-// import Body from './components/HeroSection/Body';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Section2 from './components/Section2/Section'
+import TeamMembers from './components/Team/TeamMembers';
 import Footer from './components/Footer/Footer';
-import quotes from './components/QuoteList.json';
-import Card from './components/Card';
 
-function App() {
+function App(Props) {
   return (
-    <div className="main-container">
-       <Header/>
-       {
-
-        quotes.map((data)=>{
-          return <Card {...data}/>
-        })
-       }
-       <Footer/>
-
+    <div className="App">
+      <Header />
+      <Hero />
+      <Section2 />
+      <TeamMembers />
+      <Footer />
+      {/* <Button  buttonData="Jaiten"/> */}
     </div>
   );
 }
