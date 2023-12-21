@@ -3,7 +3,7 @@ import "./Hero.css";
 
 export default function Hero() {
   let heroBtnStyle = {
-    color: "#FFA200",
+    color: "#E11D48",
     backgroundColor: "white",
     border: "none",
     padding: "15px 50px",
@@ -13,7 +13,7 @@ export default function Hero() {
   };
   let heroBtnStyle2 = {
     ...heroBtnStyle,
-    backgroundColor: "#FFA200",
+    backgroundColor: "#E11D48",
     color: "white",
   };
 

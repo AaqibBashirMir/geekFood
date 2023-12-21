@@ -15,7 +15,10 @@
     position: relative;
     top: 50px;
     /* z-index: -1; */
-    background-image: url("https://www.ikea.com/images/a-light-living-room-centered-around-a-jaettebo-three-and-a-h-c7a5b708513cc0be58ebc3c4e94efd31.jpg");
+    background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -55,7 +58,7 @@
 }
 
 .heroContent h1 span:nth-child(2){
-    color: #ffa200;
+    color: #E11D48;
     font-weight: bolder;
     margin-top: -15px;
 }
