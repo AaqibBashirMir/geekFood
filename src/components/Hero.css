@@ -38,7 +38,7 @@
 
 .heroSection h1:nth-child(1) {
     color: rgb(255, 255, 255);
-    text-shadow: 0 0 10px black;
+    /* text-shadow: 0 0 10px black; */
 }
 
 .heroContent {
